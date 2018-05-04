@@ -1,0 +1,5 @@
+line = input()
+t = line.count('T')
+c = line.count('C')
+g = line.count('G')
+print((t ** 2) + (c ** 2) + (g ** 2) + (min([t, c, g]) * 7))
